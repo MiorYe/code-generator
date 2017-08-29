@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<jdbc driver="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://apple001.mysql.rds.aliyuncs.com:3306/weimaipre?generateSimpleParameterMetadata=true"
+		user="wujfcy" password="wujfcy9981">
+	</jdbc>
+
+
+
+	<baseDir>./target</baseDir>
+
+	<base>
+		<mapperExt>com.weimai.usercenter.dao.ext</mapperExt>
+		<mapperXmlExt>xml/com.weimai.usercenter.dao.ext</mapperXmlExt>
+		<controller>com.weimai.usercenter.controller</controller>
+		<service>com.weimai.usercenter.service</service>
+		<param>com.weimai.usercenter.param</param>
+		<jsp>jsp</jsp>
+		<mybatis>
+			<mapper>com.weimai.usercenter.dao.mapper</mapper>
+			<mapperXml>xml/com.weimai.usercenter.dao.mapper</mapperXml>
+			<mapperModel>com.weimai.usercenter.facade.entity</mapperModel>
+		</mybatis>
+	</base>
+
+	<!-- mapperExt: 是否生成ext service：是否生成业务类 controller：是否生成控制器 param: 是否生成参数实体 
+		jsp：是否生成jsp页面 page: 是否生成分页方法 list: 是否生成list方法 controller="true" service="true" 
+		param="true" jsp="true" page="true" list="true" -->
+	<tables mapperExt="true" controller="true" service="true" param="false"
+		jsp="false" page="false" list="false">
+
+				<!-- <table name="app_kehuylgz" entityName="AppKehuYlGz" />
+				<table name="mzgy_menzhenpb" entityName="MzgyMenzhenPb" />
+				<table name="ptgy_daima" entityName="PtgyDaima" />
+				<table name="ptgy_kehujbxx" entityName="PtgyKehujbxx" />
+
+				<table name="ptgy_xingzhengqhxx" entityName="PtgyXingZhengQhXx" />
+				<table name="ptgy_xinwenzx" entityName="PtgyXinwenZx" />
+				<table name="wmys_weixinyqhzjl" entityName="WmysWeixinyqhzjl" />
+				<table name="xtgy_daima" entityName="XtgyDaima" />
+				<table name="xtgy_huanzhejzjz" entityName="XtgyHuanzheJzJz" />
+
+				<table name="xtgy_yiyuanxx" entityName="XtgyYiyuanXx" />
+				<table name="ylgl_yishengmyd" entityName="YlglYishengmyd" />
+				<table name="ylgl_yiyuanmyd" entityName="YlglYiyuanMyd" />
+				<table name="ylsj_huanzhezsy" entityName="YlsjHuanZheZSy" /> -->
+
+
+
+<!-- 
+<table name="app_zhongduanbbh" entityName="AppZhongduanbbh" />
+<table name="app_zhongduansjjl" entityName="AppZhongduansjjl" />
+<table name="ptgy_kehuxxxx" entityName="PtgyKehuxxxx" />
+<table name="ptgy_shoujisbbm" entityName="PtgyShoujisbbm" />
+<table name="ptgy_weimaihao" entityName="PtgyWeimaihao" />
+<table name="ptgy_yonghujbxx" entityName="PtgyYonghujbxx" />
+<table name="pub_sequence" entityName="PubSequence" />
+<table name="xtgy_denglurz" entityName="XtgyDenglurz" />
+
+<table name="xtgy_dengluzq" entityName="XtgyDengluzq" />
+<table name="xtgy_huancunlb" entityName="XtgyHuancunlb" />
+<table name="xtgy_kaifazgl" entityName="XtgyKaifazgl" />
+<table name="xtgy_wenjianccsy" entityName="XtgyWenjianccsy" />
+<table name="xtgy_yewucsjgpz" entityName="XtgyYewucsjgpz" />
+<table name="xtgy_yewucsmb" entityName="XtgyYewucsmb" />
+
+<table name="xtgy_yewucsptpz" entityName="XtgyYewucsptpz" />
+<table name="xtgy_yewucsyypz" entityName="XtgyYewucsyypz" />
+<table name="xxpt_duanxinmb" entityName="XxptDuanxinmb" />
+<table name="xxpt_jishitxzh" entityName="XxptJishitxzh"/>
+<table name="ywgl_yingyongfwq" entityName="YwglYingyongfwq" /> -->
+
+
+
+<table name="xtgy_wenjianccsy" entityName="XtgyWenjianccsy"/>
+
+
+	</tables>
+</configuration>
