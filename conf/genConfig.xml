@@ -11,16 +11,16 @@
 	<baseDir>./target</baseDir>
 
 	<base>
-		<mapperExt>com.weimai.usercenter.dao.ext</mapperExt>
-		<mapperXmlExt>xml/com.weimai.usercenter.dao.ext</mapperXmlExt>
-		<controller>com.weimai.usercenter.controller</controller>
-		<service>com.weimai.usercenter.service</service>
-		<param>com.weimai.usercenter.param</param>
+		<mapperExt>com.weimai.ordercenter.dao.ext</mapperExt>
+		<mapperXmlExt>xml/com.weimai.ordercenter.dao.ext</mapperXmlExt>
+		<controller>com.weimai.ordercenter.controller</controller>
+		<service>com.weimai.ordercenter.service</service>
+		<param>com.weimai.ordercenter.param</param>
 		<jsp>jsp</jsp>
 		<mybatis>
-			<mapper>com.weimai.usercenter.dao.mapper</mapper>
-			<mapperXml>xml/com.weimai.usercenter.dao.mapper</mapperXml>
-			<mapperModel>com.weimai.usercenter.facade.entity</mapperModel>
+			<mapper>com.weimai.ordercenter.dao.mapper</mapper>
+			<mapperXml>xml/com.weimai.ordercenter.dao.mapper</mapperXml>
+			<mapperModel>com.weimai.ordercenter.model.entity</mapperModel>
 		</mybatis>
 	</base>
 
@@ -73,7 +73,10 @@
 
 
 
-<table name="xtgy_wenjianccsy" entityName="XtgyWenjianccsy"/>
+<table name="yygl_fuwusfwxm" entityName="YyglFuwusFwxmEntity"/>
+<table name="yygl_fuwuszcxx" entityName="YyglFuwusZcxxEntity"/>
+<table name="yygl_fuwuxmgmjl" entityName="YyglFuwuxmGmJlEntity"/>
+<table name="yygl_tijianyyjl" entityName="YyglTijianYyJlEntity"/>
 
 
 	</tables>
