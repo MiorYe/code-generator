@@ -27,7 +27,7 @@
 	<!-- mapperExt: 是否生成ext service：是否生成业务类 controller：是否生成控制器 param: 是否生成参数实体 
 		jsp：是否生成jsp页面 page: 是否生成分页方法 list: 是否生成list方法 controller="true" service="true" 
 		param="true" jsp="true" page="true" list="true" -->
-	<tables mapperExt="true" controller="true" service="true" param="false"
+	<tables mapperExt="true" controller="false" service="false" param="false"
 		jsp="false" page="false" list="false">
 
 				<!-- <table name="app_kehuylgz" entityName="AppKehuYlGz" />
