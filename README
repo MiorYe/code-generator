@@ -1,0 +1,6 @@
+本工具是基于MyBitis.generator插件的个性化代码生成工具
+使用步骤：
+1.使用前，需要修改conf.genConfig.xml中数据源的配置信息；
+2.修改文件mybatisGenCfg.ftl中classPathEntry配置后的驱动位置（绝对路径）。
+3.生成代码，在Idea的terminal命令窗口，直接使用gen.bat即可完成！
+4.生成后的代码在target文件路径下
