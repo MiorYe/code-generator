@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configuration>
+	<!--<jdbc driver="com.mysql.jdbc.Driver"-->
+		<!--url="jdbc:mysql://apple001.mysql.rds.aliyuncs.com:3306/weimaipre?generateSimpleParameterMetadata=true"-->
+		<!--user="wujfcy" password="wujfcy9981">-->
+	<!--</jdbc>-->
 	<jdbc driver="com.mysql.jdbc.Driver"
-		url="jdbc:mysql://apple001.mysql.rds.aliyuncs.com:3306/weimaipre?generateSimpleParameterMetadata=true"
-		user="wujfcy" password="wujfcy9981">
+		  url="jdbc:mysql://192.168.1.93:3306/wmtzt_04"
+		  user="test_pt_wm_04"
+		  password="Jmybdn783">
 	</jdbc>
 
 
@@ -73,10 +78,7 @@
 
 
 
-<table name="yygl_fuwusfwxm" entityName="YyglFuwusFwxmEntity"/>
-<table name="yygl_fuwuszcxx" entityName="YyglFuwusZcxxEntity"/>
-<table name="yygl_fuwuxmgmjl" entityName="YyglFuwuxmGmJlEntity"/>
-<table name="yygl_tijianyyjl" entityName="YyglTijianYyJlEntity"/>
+<table name="mdse_front_category" entityName="MmdseFrontCategoryEntity"/>
 
 
 	</tables>

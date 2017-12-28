@@ -41,12 +41,17 @@ public class ConfigurationParser {
 		for (int i = 0; i < children.getLength(); i++) {
 			Node node = children.item(i);
 			if (node instanceof Element) {
+
 				Element element = (Element)node;
 				if (elementNameMatch(element, "jdbc")) {
 					genConfiguration.setJdbcDriver(element.getAttribute("driver"));
 					genConfiguration.setJdbcUrl(element.getAttribute("url"));
 					genConfiguration.setJdbcUser(element.getAttribute("user"));
 					genConfiguration.setJdbcPassword(element.getAttribute("password"));
+//					genConfiguration.setJdbcDriver("com.mysql.jdbc.Driver");
+//					genConfiguration.setJdbcUrl("dbc:mysql://192.168.1.93:3306/wmtzt_04?characterEncoding=utf-8");
+//					genConfiguration.setJdbcUser("test_pt_wm_04");
+//					genConfiguration.setJdbcPassword("Jmybdn783");
 					
 				} else if (elementNameMatch(element, "baseDir")) {
 					genConfiguration.setBaseDir(element.getTextContent().trim());
